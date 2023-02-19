@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 API_TOKEN=""
 WEATHER_API_TOKEN = ""
-WEATHER_API_URL = "http://api.weatherapi.com/v1/current.json"
+WEATHER_API_URL = "http://api.weatherapi.com/v1/forecast.json"
 
 @app.route("/api/weather/v1/helloTest", methods=["GET"])
 def hello_world():
